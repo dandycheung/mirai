@@ -21,7 +21,7 @@ repositories {
     maven("https://maven.aliyun.com/repository/public")
 }
 
-version = Versions.console
+version = Versions.consoleIdea
 description = "IntelliJ plugin for Mirai Console"
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/

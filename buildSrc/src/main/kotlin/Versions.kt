@@ -18,6 +18,7 @@ object Versions {
 
     const val core = project
     const val console = project
+    const val consoleIdea = "213-$project-160-1" // idea-mirai-kotlin-releaseNumber
     const val consoleTerminal = project
 
     const val kotlinCompiler = "1.5.30"
@@ -55,7 +56,8 @@ object Versions {
 
     const val yamlkt = "0.10.2"
     const val intellijGradlePlugin = "1.3.0"
-//    const val kotlinIntellijPlugin = "211-1.5.20-release-284-IJ7442.40" // keep to newest as kotlinCompiler
+
+    //    const val kotlinIntellijPlugin = "211-1.5.20-release-284-IJ7442.40" // keep to newest as kotlinCompiler
     const val intellij = "2021.3" // don't update easily unless you want your disk space -= 500MB
 
 }
